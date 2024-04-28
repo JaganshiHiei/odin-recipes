@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.recipe,
+.desc,
+.ingredients,
+.steps {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recipe {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+}
+
+.ingredients,
+.steps,
+.other {
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.desc .title,
+.ingredients .title,
+.steps .title {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.other {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.other li {
+    list-style: none;
+    margin: 0 auto;
+}
+
+li {
+    line-height: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: lightblue;
+}
