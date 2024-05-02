@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.title {
+    text-align: center;
+    margin: 1em;
+}
+
+.recipe-name {
+    margin: 1em;
+}
+
+.recipe-name p {
+    text-align: center;
+}
+
+.recipe-name a {
+    text-decoration: none;
+    color: black;
+}
+
+.recipe-name a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
